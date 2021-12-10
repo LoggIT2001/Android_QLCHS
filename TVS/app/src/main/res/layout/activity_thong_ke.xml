@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tvs_bg_tk"
+    android:layout_margin="20dp"
+    tools:context=".ThongKeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logoptit" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Today: "
+        android:id="@+id/tvThongKeNgay"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Month: "
+        android:id="@+id/tvThongKeThang"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Year: "
+        android:id="@+id/tvThongKeNam"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+</LinearLayout>

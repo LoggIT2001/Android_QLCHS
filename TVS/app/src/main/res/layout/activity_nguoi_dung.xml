@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nd"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".NguoiDungActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/logoptit"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/edId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã Admin" />
+
+    <EditText
+        android:id="@+id/edUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Đăng Nhập" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Mật Khẩu" />
+
+    <EditText
+        android:id="@+id/edRePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Nhắc lại mật khẩu" />
+
+
+    <EditText
+        android:id="@+id/edFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ và Tên" />
+
+    <EditText
+        android:id="@+id/edPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone" />
+
+    <EditText
+        android:id="@+id/edMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/edAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnAddUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="addUser"
+            android:text="Lưu" />
+
+        <Button
+            android:id="@+id/btnCancelUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Huỷ" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnShowUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showUsers"
+        android:text="Danh sách Admin" />
+
+</LinearLayout>

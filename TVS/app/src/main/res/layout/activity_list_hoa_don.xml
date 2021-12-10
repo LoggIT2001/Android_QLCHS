@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sach"
+    android:orientation="vertical"
+    tools:context=".ListHoaDonActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edSearch"
+        android:layout_marginTop="5dp"
+        android:maxLines="1" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvHoaDon"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" >
+
+    </ListView>
+
+</LinearLayout>

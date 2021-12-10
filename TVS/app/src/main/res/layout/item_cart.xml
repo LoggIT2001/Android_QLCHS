@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvIdSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="#FF0000"
+            android:singleLine="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSoLuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:textStyle="bold"
+            android:gravity="center_vertical" />
+        <TextView
+            android:id="@+id/tvGiaBia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:textStyle="bold"
+            android:gravity="center_vertical" />
+        <TextView
+            android:id="@+id/tvKhachHang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="#FF0000"
+            android:singleLine="true"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvSdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="#FF0000"
+            android:singleLine="true"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvThanhTien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thanh tien"
+            android:textColor="#FF0000"
+            android:textStyle="bold"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/ivDelete"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_close" />
+</RelativeLayout>
