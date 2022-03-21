@@ -1,1 +1,2 @@
-Project design by: LoggIT (lead), Nguyễn Đức Sơn, Nguyễn Đoàn Quân, Nguyễn Văn Hiếu
+The project design by: LoggIT (lead), NĐ Sơn, NĐ Quân, NV Hiếu
+Open the project with android studio 
